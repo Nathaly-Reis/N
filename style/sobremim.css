@@ -34,7 +34,7 @@ body {
 
 .cabecalho-menu-links{
     font-family: 'Black Ops One', cursive;
-    font-size: 24px;
+    font-size: 20px;
     font-weight: 600;
     color: white;
     text-decoration: none;
@@ -100,7 +100,7 @@ body {
     left: 0;
     width: 100%;
     color: white;
-    background-color: #0303f5;
+    background-color: #006aa3;
     display: flex;
     align-items: center;
     justify-content: center;

@@ -31,7 +31,7 @@ body {
 
 .cabecalho-menu-links{
     font-family: 'Black Ops One', cursive;
-    font-size: 24px;
+    font-size: 20px;
     font-weight: 600;
     color: white;
     text-decoration: none;
@@ -40,9 +40,11 @@ body {
 /* Estilização da seção da galeria */
 .galeria {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    flex-direction: column; /* Organiza os itens em uma coluna */
+    align-items: center; /* Centraliza horizontalmente */
+    justify-content: center; /* Centraliza verticalmente */
     padding: 20px; /* Espaçamento entre os itens */
+    height: 100vh; /* Define a altura da galeria para ocupar toda a altura da tela */
 }
 
 /* Estilização do título da galeria */
@@ -57,97 +59,42 @@ body {
     text-align: center;
 
     /* Adicione uma margem inferior para separar dos itens */
-    margin-bottom: 20px; /* Você pode ajustar esse valor conforme necessário */
+    margin-bottom: 520px; /* Você pode ajustar esse valor conforme necessário */
 }
 
-/* Estilização da seção da galeria */
-.galeria {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    padding: 20px; /* Espaçamento entre os itens */
-}
-
-/* Estilização do título da galeria */
-.titulogaleria {
-    /* Define o tamanho da fonte como 36px */
-    font-size: 36px;
-
-    /* Define a família de fontes como 'Krona One' com fallback para sans-serif */
-    font-family: 'Krona One', sans-serif;
-
-    /* Alinha o texto justificado */
-    text-align: center;
-
-    /* Adicione uma margem inferior para separar dos itens */
-    margin-bottom: 20px; /* Você pode ajustar esse valor conforme necessário */
-}
-
-/* Estilização da seção da galeria */
-.galeria {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    padding: 20px; /* Espaçamento entre os itens */
-}
-
-/* Estilização do título da galeria */
-.titulogaleria {
-    /* Define o tamanho da fonte como 36px */
-    font-size: 36px;
-
-    /* Define a família de fontes como 'Krona One' com fallback para sans-serif */
-    font-family: 'Krona One', sans-serif;
-
-    /* Alinha o texto justificado */
-    text-align: center;
-
-    /* Adicione uma margem inferior para separar dos itens */
-    margin-bottom: 20px; /* Você pode ajustar esse valor conforme necessário */
-}
-
-/* Estilização de cada item da galeria */
 .item {
-    flex: 0 0 calc(33.33% - 20px); /* Define a largura dos itens, com margens entre eles */
-    background-color: linear-gradient(to bottom, #1d2b53, #7e2553, #ff5555); /* Cor de fundo dos itens */
-    padding: 10px;
+    width: 100%;
+    max-width: 300px; /* Ajuste a largura máxima conforme necessário */
+    background-color: linear-gradient(to bottom, #1d2b53, #7e2553, #ff5555);
+    padding: 2px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 0 auto 20px; /* Margem inferior e centralização horizontal */
     text-align: center;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra suave nos itens */
-    margin-bottom: 20px; /* Adiciona margem inferior para separar os itens */
-
-    /* Centraliza os elementos verticalmente */
-    display: flex;
-    flex-direction: column;
-    align-items: center;
 }
 
 /* Estilização das imagens dentro dos itens */
 .itemimg {
     max-width: 100%;
-    max-height: 100px; /* Defina a altura máxima desejada */
-    width: auto;
     height: auto;
-    object-fit: cover; /* Garante que a imagem preencha o contêiner sem distorção */
-    border: 2px solid #000; /* Adicione uma borda de 2px sólida preta */
-    transition: transform 0.2s ease-in-out; /* Efeito de transição suave ao passar o mouse */
+    object-fit: cover;
+    border: 2px solid #000;
+    transition: transform 0.2s ease-in-out;
 }
 
 /* Efeito de escala ao passar o mouse */
-.itemimg:hover {
-    transform: scale(1.05); /* Aumenta a escala da imagem em 5% ao passar o mouse */
+.item:hover .itemimg {
+    transform: scale(1.05);
 }
 
 /* Estilização dos títulos das imagens */
 .itemh2 {
     font-size: 15px;
-    font-family: 'Krona One', sans-serif;
-    margin-top: 10px; /* Espaço entre a imagem e o título */
-    text-align: center; /* Centraliza o texto */
-    color: #000; /* Cor da fonte preta */
-    margin-bottom: 20px; /* Adiciona margem inferior para separar os itens */
+    font-family: 'Black Ops One', cursive;
+    margin-top: 10px;
+    text-align: center;
+    color: #000;
+    margin-bottom: 20px;
 }
-
-
 
 
 /* Espaçamento entre o conteúdo principal (main) e o rodapé (footer) */
@@ -157,18 +104,18 @@ body {
     left: 0;
     width: 100%;
     color: white;
-    background-color: #800000;
+    background-color: #006aa3;
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
-    font-family: 'Krona One', sans-serif;
+    font-family: 'Black Ops One', cursive;
     font-size: 18px;
     font-weight: 400;
-    padding: 20px;
+    padding: 10px;
 }
 
 /* Estilo de link no rodapé */
 .rodape a:hover {
-    color: #FFA500;
+    color: #00c8ff;
 }
