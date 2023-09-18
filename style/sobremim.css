@@ -4,6 +4,8 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Mooli&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -31,7 +33,7 @@ body {
 
 
 .cabecalho-menu-links{
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Black Ops One', cursive;
     font-size: 24px;
     font-weight: 600;
     color: white;
@@ -56,14 +58,14 @@ body {
 
 .titulo{
     font-size: 36px;
-    font-family: 'Krona One', sans-serif;
+    font-family: 'Black Ops One', cursive;
     text-align: justify;
     margin-bottom: 20px;
 }
 
 .paragrafo{
-    font-size: 24px;
-    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-family: 'Mooli', sans-serif;
     text-align: justify;
     margin-bottom: 20px;
 }
@@ -82,9 +84,9 @@ body {
 }
 
 .imagem-ballet-Finac{
-    max-width: 80%; 
+    max-width: 90%; 
     height: auto;
-    border-radius: 10px; 
+    border-radius: 40px; 
     transition: transform 0.3s ease-in-out;
 }
 
@@ -98,17 +100,17 @@ body {
     left: 0;
     width: 100%;
     color: white;
-    background-color: #800000;
+    background-color: #0303f5;
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
-    font-family: 'Krona One', sans-serif;
+    font-family: 'Black Ops One', cursive;
     font-size: 18px;
     font-weight: 400;
-    padding: 20px;
+    padding: 10px;
 }
 
 .rodape a:hover {
-    color: #FFA500;
+    color: #00f2ff;
 }

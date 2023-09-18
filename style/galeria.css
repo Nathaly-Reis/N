@@ -30,7 +30,7 @@ body {
 }
 
 .cabecalho-menu-links{
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Black Ops One', cursive;
     font-size: 24px;
     font-weight: 600;
     color: white;
@@ -48,10 +48,10 @@ body {
 /* Estilização do título da galeria */
 .titulogaleria {
     /* Define o tamanho da fonte como 36px */
-    font-size: 36px;
+    font-size: 30px;
 
     /* Define a família de fontes como 'Krona One' com fallback para sans-serif */
-    font-family: 'Krona One', sans-serif;
+    font-family: 'Black Ops One', cursive;
 
     /* Alinha o texto justificado */
     text-align: center;
@@ -124,7 +124,7 @@ body {
 /* Estilização das imagens dentro dos itens */
 .itemimg {
     max-width: 100%;
-    max-height: 200px; /* Defina a altura máxima desejada */
+    max-height: 100px; /* Defina a altura máxima desejada */
     width: auto;
     height: auto;
     object-fit: cover; /* Garante que a imagem preencha o contêiner sem distorção */
