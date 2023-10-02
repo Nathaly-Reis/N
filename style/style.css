@@ -4,6 +4,8 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Mooli&family=Young+Serif&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -66,7 +68,7 @@
 
 .apresentacao-conteudo-titulo {
         font-family: 'Black Ops One', cursive;
-        font-size: 40px;
+        font-size: 30px;
         text-align: justify;
 }
 
@@ -241,4 +243,17 @@
 
 .rodape a:hover {
         color: #8e85e3;
+}
+
+.apresentacao-conteudo-texto2 {
+        font-size: 17px;
+        font-family: 'Mooli', sans-serif;
+        font-family: 'Young Serif', serif;
+        text-align: justify;   
+}
+.apresentacao-conteudo-texto {
+        font-size: 17px;
+        font-family: 'Mooli', sans-serif;
+        font-family: 'Young Serif', serif;
+        text-align: justify;  
 }
